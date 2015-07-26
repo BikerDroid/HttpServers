@@ -125,7 +125,6 @@ class HttpServers():
         from os import remove as remove_file
         remove_file(fpath)
 
-    #def start_web_server(self):
     def start(self):
         print('Web Root:',self.root)
         print('CGI Enabled:',self.use_cgi)
