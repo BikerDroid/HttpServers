@@ -1,7 +1,8 @@
 # HttpServers (Python3)
 
 HTTPS/HTTP Web Server Class using Python3 standard libs.
-An offspring for a project using CGI for a WebGUI interface.
+
+An offspring from a project using CGI for a WebGUI interface.
 
 ## Usage
 
@@ -28,7 +29,14 @@ http://localhost:8000/shutdown/
 https://localhost:1443/shutdown/
 ```
 
-**Open WebBrowser 
+**Open WebBrowser at Server Start:**
+
+```
+HttpServers(start_browser=True).start()
+HttpServers(use_cgi=True, start_browser=True).start()
+HttpServers(use_ssl=True, start_browser=True).start()
+HttpServers(use_ssl=True, use_cgi=True, start_browser=True).start()
+```
 
 ## License
 *HttpServers* is distributed under the MIT license.
