@@ -38,5 +38,9 @@ HttpServers(use_ssl=True, start_browser=True).start()
 HttpServers(use_ssl=True, use_cgi=True, start_browser=True).start()
 ```
 
+## Self-Signed SSL Certificate
+
+If you want to generate your own Self-Signed SSL Certificate in PEM format, visit [cert-depot.com](http://www.cert-depot.com/).
+
 ## License
 *HttpServers* is distributed under the MIT license.
