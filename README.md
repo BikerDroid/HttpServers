@@ -42,5 +42,7 @@ HttpServers(use_ssl=True, use_cgi=True, start_browser=True).start()
 
 If you want to generate your own Self-Signed SSL Certificate in PEM format, visit [cert-depot.com](http://www.cert-depot.com/).
 
+The code has a very generic PEM Certificate and Key included for demo (TLS 1.2, RSA).
+
 ## License
 *HttpServers* is distributed under the MIT license.
